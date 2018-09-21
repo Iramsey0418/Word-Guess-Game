@@ -1,0 +1,46 @@
+
+body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4qZOk0K3U_9l42JwkJejwGtnVBtn9Q_grKHof9tzVZsvjznT')
+}
+header {
+    border: 3px solid black;
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    text-align: center; 
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+    background-color: #cccccc;
+}
+.underscores {
+    border: 3px solid black;
+    font-size: 100px;
+    text-align: center; 
+    margin: 0 auto;
+    height: 150px;
+    width: 80%;
+    background-color: #cccccc;
+
+    
+
+}
+.rightGuess{
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center; 
+    margin: 0 auto;
+    height: 150px;
+    width: 80%;
+    background-color: #cccccc;
+    font-family: 'Sigmar One', cursive;
+}
+.wrongGuess{
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center; 
+    margin: 0 auto;
+    height: 150px;
+    width: 80%;
+    background-color: #cccccc;
+    font-family: 'Sigmar One', cursive;
+}

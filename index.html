@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assests/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assests/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Sigmar+One" rel="stylesheet">
+    
+</head>
+<body>
+        <audio controls autoplay loop>
+                <source src="assests/audio/TripleH.mp3" type="audio/ogg">
+                
+                </audio>
+                <style>
+                h1{
+                    font-family: 'Monoton', cursive;
+                }
+                wrongGuess{
+                    font-family: 'Sigmar One', cursive;
+                }
+                rightGuess{
+                    font-family: 'Sigmar One', cursive;
+                }
+
+                
+                </style>
+</body>
+<div class="container">
+    <header>
+    <h1>Hangman Game</h1>
+    <br>
+    <h3>WWE Superstars</h3>
+    </header>
+    <br>
+    <div class="underscores"></div>
+    <br>
+    <div class="rightGuess">right guess</div>
+    <br>
+    <div class="wrongGuess">wrong guess</div>
+</div>
+<script src="assests/javascript/game.js"></script>
+</html>
